@@ -1,0 +1,204 @@
+#List{
+    display: table;
+    list-style-type: square;
+    margin:0 auto;
+}
+
+#text{
+  background-image: url(http://cefns.nau.edu/~daw277/Images/background80.png);
+  background-repeat: repeat;
+  border: 2px solid black;
+  padding: 25px;
+  margin-top: 25px;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-bottom: 25px;
+}
+
+#watermark{
+  position: fixed;
+  bottom: 0;
+  right: -15%;
+  z-index: 9999;
+  width: 20%;
+}
+
+
+body{
+  color: #f3f3f3;
+  font-family: 'Roboto', sans-serif;
+  font-size: 100%;
+}
+
+/*****************NAVBAR******************/
+ul.NavBar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    box-shadow: 5px 5px 25px 0px #000;
+    overflow: hidden;
+    background-color: #f3f3f3;
+    border: 1px solid #e7e7e7;
+}
+
+li.NavBar {
+    float: left;
+}
+
+li.Navbar a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 10px 25px;
+    text-decoration: none;
+}
+
+li.NavBar a:hover {
+    background-color: #008cba;
+    color: white;
+}
+/*****************************************/
+
+/*****************SIDEBAR******************/
+ul.SideBar {
+    list-style-type: none;
+    position: fixed;
+    top: 65%;
+    left: 5px;
+    box-shadow: 5px 5px 25px 0px #000;
+    margin: 0;
+    padding: 0;
+    width: 150px;
+    background-color: #f3f3f3;
+    border: 1px solid #e7e7e7;
+}
+
+li.SideBar a {
+    display: block;
+    color: black;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+li.SideBar a:hover {
+    background-color: #008cba;
+    color: white;
+}
+/*****************************************/
+
+a.box:link, a.box:visited {
+    background-color: #f3f3f3;
+    color: black;
+    border: 1px solid #e7e7e7;
+    padding: 10px 20px;
+    box-shadow: 5px 5px 25px 0px #000;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+a.box:hover, a.box:active {
+    background-color: #008cba;
+    color: white;
+}
+
+.button{
+    background-color: #f3f3f3;
+    color: black;
+    border: 1px solid #e7e7e7;
+    padding: 10px 20px;
+    box-shadow: 5px 5px 25px 0px #000;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.button:hover{
+    background-color: #008cba;
+    color: white;
+}
+
+footer{
+  margin: 10px auto;
+  border-top: thick solid #f3f3f3;
+  border-color: #e7e7e7;
+  bottom: 0;
+  padding-bottom: 1px;
+  color: black;
+  font-family: 'Roboto', sans-serif;
+  font-size: 10px;
+}
+
+table, th, td{
+  text-align: center;
+  border-spacing: 15px;
+}
+/************NOTIFICATION BAR**************/
+.notificationCnt{
+  position: fixed;
+  bottom:30px;
+  width: 100%;
+}
+.notificationCnt > .notification{
+  position: relative;
+  width: 750px;
+  height: 21px;
+  padding: 5px;
+  margin: 0 auto;
+  background-color: #f3f3f3;
+  border: 1px solid black;
+  color: black;
+}
+.notificationCnt > .notification > h1{
+  position: absolute;
+  left: 5px;
+  top: 5px;
+  margin: 0;
+  font-size: 18px;
+}
+.notificationCnt > .notification > button{
+  position: absolute;
+  background-color: #f3f3f3;
+  color: black;
+  border: 0px;
+  padding: 8px 12px;
+  right: 0px;
+  top: 0px;
+}
+
+.notificationCnt > .notification > button:hover{
+  background-color: #008cba;
+  color: white;
+}
+
+.notificationCnt > .notification > .message{
+  position: relative;
+  width: 586px;
+  margin: 0 0 0 110px;
+}
+
+.notificationCnt >.notification >.message >p{
+  float: left;
+  margin: 0;
+  font-size: 14px;
+  line-height: 21px;
+}
+
+.notificationCnt >.notification >.message >input{
+  margin: 0 5px;
+  float: left;
+}
+
+.notificationCnt >.notification >.message >button{
+  position: absolute;
+  background-color: #f3f3f3;
+  color: black;
+  border: 0px;
+  padding: 8px 20px;
+  top: -5px;
+}
+
+.notificationCnt > .notification > .message >button:hover{
+  background-color: #008cba;
+  color: white;
+}

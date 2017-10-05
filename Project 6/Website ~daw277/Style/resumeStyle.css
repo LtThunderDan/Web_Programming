@@ -1,0 +1,74 @@
+#mainContent{
+  position: relative;
+  overflow: hidden;
+  background: white;
+  margin: 0 auto;
+  max-width: 600px;
+  min-width: 200px;
+  align-items: center;
+  border: 2px solid black;
+  padding: 25px;
+  z-index: 100;
+}
+
+#background{
+  background-image: url(http://cefns.nau.edu/~daw277/Images/background_cloud.png);
+  background-repeat: repeat;
+  z-index: 0;
+}
+
+
+/**************SIDEBAR*************/
+ul.SideBar {
+    list-style-type: none;
+    position: fixed;
+    top: 65%;
+    left: 5px;
+    box-shadow: 5px 5px 25px 0px #000;
+    margin: 0;
+    padding: 0;
+    width: 150px;
+    background-color: #f3f3f3;
+    border: 1px solid #e7e7e7;
+}
+
+li.SideBar a {
+    display: block;
+    color: black;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+li.SideBar a:hover {
+    background-color: #008cba;
+    color: white;
+}
+/************************************/
+/**************SKILL LIST***********/
+ul.skill{
+  width: 600px;
+  margin-bottom: 20px;
+  overflow: hidden;
+}
+
+li.skill{
+  line-height: 1.5em;
+  float: left;
+  width: 50%;
+  display: inline;
+}
+/*************************************/
+/**********EXP & EDU LIST************/
+ul.exp{
+  width: 600px;
+  margin-bottom: 20px;
+  overflow: hidden;
+}
+
+li.exp{
+  line-height: 1.5em;
+  float: left;
+  width: 50%;
+  display: inline;
+}
+/***************************************/

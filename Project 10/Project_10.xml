@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Cloud SYSTEM "cloud.dtd">
+<Cloud>
+  <cloud>
+    <name name="Cumulonimbus"/>
+    <altitude elevation="Towering vertical"/>
+    <form form_name="Cumulonimbiform"/>
+    <type name="Cumulonimbus" species="Cumulonimbus calvus" varieties="combination"/>
+    <type name="Cumulonimbus" species="Cumulonimbus capillatus" varieties="combination"/>
+  </cloud>
+  <cloud>
+    <name name="Stratocumuliform"/>
+    <altitude elevation="mid-level"/>
+    <form form_name="altocumulus"/>
+    <type name="stratocumuliform " species="Altocumulus stratiformis" varieties="opacity based"/>
+    <type name="stratocumuliform " species="Altocumulus lenticularis" varieties="opacity based"/>
+    <type name="stratocumuliform " species="Altocumulus castellanus" varieties="opacity based"/>
+  </cloud>
+  <cloud>
+    <name name="Cirrostratus"/>
+    <altitude elevation="high-level"/>
+    <form form_name="stratiform" type="Cs"/>
+    <type name="cirrostratus" species="Cirrostratus fibratus" varieties="pattern based"/>
+    <type name="cirrostratus" species="Cirrostratus nebulosus" varieties="pattern based"/>
+  </cloud>
+  <cloud>
+    <name name="Cirriform"/>
+    <altitude elevation="high-level"/>
+    <form form_name="cirrus" type="Ci"/>
+    <type name="Cirriform" species="Cirrus fibratus" varieties="combination" etages="V-1"/>
+    <type name="Cirriform" species="Cirrus uncinus" varieties="combination" etages="V-2"/>
+    <type name="Cirriform" species="Cirrus spissatus" varieties="combination" etages="V-3"/>
+    <type name="Cirriform" species="Cirrus castellanus" varieties="combination" etages="V-4"/>
+    <type name="Cirriform" species="Cirrus floccus" varieties="combination" etages="V-5"/>
+  </cloud>
+  <cloud>
+    <name name="Stratocumuliform"/>
+    <altitude elevation="high-level"/>
+    <form form_name="cirrocumulus" type="Cc"/>
+    <type name="stratocumuliform" species="Cirrocumulus stratiformis" varieties="pattern based" etages="V-12"/>
+    <type name="stratocumuliform" species="Cirrocumulus lenticularis" varieties="pattern based" etages="V-13"/>
+    <type name="stratocumuliform" species="Cirrocumulus castellanus" varieties="pattern based" etages="V-14"/>
+  </cloud>
+  <cloud>
+    <name name="Cumuliform "/>
+    <altitude elevation="low-level"/>
+    <form form_name="cumulus" type="Cu"/>
+    <type name="cumuliform" species="Cumulus fractus" varieties="pattern based" etages="V-81"/>
+    <type name="cumuliform" species="Cumulus humilis" varieties="pattern based" etages="V-82"/>
+  </cloud>
+</Cloud>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT Cloud (cloud+)>
+<!ELEMENT cloud (name, altitude, form, type*)>
+
+<!ELEMENT name EMPTY>
+<!ATTLIST name        name          CDATA #REQUIRED>
+
+<!ELEMENT altitude EMPTY>
+<!ATTLIST altitude    elevation     CDATA #REQUIRED>
+
+<!ELEMENT form EMPTY>
+<!ATTLIST form        form_name     CDATA #REQUIRED
+                      type          CDATA #IMPLIED>
+                      
+<!ELEMENT type EMPTY>
+<!ATTLIST type        name          CDATA #REQUIRED
+                      species       CDATA #REQUIRED
+                      varieties     CDATA #REQUIRED
+                      etages        CDATA #IMPLIED>
+                      

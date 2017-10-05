@@ -1,0 +1,25 @@
+ul.NavBar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #f3f3f3;
+    border: 1px solid #e7e7e7;
+}
+
+li.NavBar {
+    float: left;
+}
+
+li.Navbar a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 10px 25px;
+    text-decoration: none;
+}
+
+li.NavBar a:hover {
+    background-color: #008cba;
+    color: white;
+}

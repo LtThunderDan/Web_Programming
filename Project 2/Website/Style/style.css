@@ -1,0 +1,53 @@
+#List {
+    display: table;
+    list-style-type: square;
+    margin:0 auto;
+}
+
+#text{
+  background-image: url(http://cefns.nau.edu/~daw277/Images/background80.png);
+  background-repeat: repeat;
+  border: 2px solid black;
+  padding: 25px;
+  margin-top: 25px;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-bottom: 25px;
+}
+
+body{
+  color: #f3f3f3;
+  font-family: 'Roboto', sans-serif;
+  font-size: 100%;
+}
+
+a.box:link, a.box:visited {
+    background-color: #f3f3f3;
+    color: black;
+    border: 1px solid #e7e7e7;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+a.box:hover, a.box:active {
+    background-color: #008cba;
+    color: white;
+}
+
+#footer{
+  margin: 10px auto;
+  border-top: thick solid #f3f3f3;
+  border-color: #e7e7e7;
+  bottom: 0;
+  padding-bottom: 1px;
+  color: black;
+  font-family: 'Roboto', sans-serif;
+  font-size: 10px;
+}
+
+table, th, td{
+  text-align: center;
+  border-spacing: 15px;
+}
